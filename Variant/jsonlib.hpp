@@ -1,7 +1,4 @@
-//
-// Created by Jose luis Lopez lopez on 28/11/23.
-//
-
+/
 #ifndef CASO_FINAL_INTEGRADOR_JSOONLIB_HPP
 #define CASO_FINAL_INTEGRADOR_JSOONLIB_HPP
 
