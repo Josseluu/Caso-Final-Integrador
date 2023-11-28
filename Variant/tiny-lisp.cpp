@@ -38,7 +38,7 @@ std::string Variant::to_json_string() {
 
 
 Variant Variant::from_json_string(std::string sjson) {
-    // Tu implementación aquí
+
 }
 
 Variant Variant::parse_json(jsonlib::Json job) {
