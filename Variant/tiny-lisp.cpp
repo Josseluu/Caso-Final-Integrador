@@ -27,7 +27,7 @@ public:
     std::string to_string();
     std::string to_json_string();
     static Variant from_json_string(std::string json);
-    static Variant parse_json(jsonlib::Json job);  // Asegúrate de que esta es la definición correcta de la función
+    static Variant parse_json(jsonlib::Json job);
 };
 
 std::string Variant::to_string() {
