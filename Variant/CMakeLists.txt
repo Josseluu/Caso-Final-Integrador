@@ -1,5 +1,21 @@
-target_include_directories(Caso-final-integrador PUBLIC /ruta/a/json11)
-target_include_directories(Caso-final-integrador PUBLIC /ruta/a/jsonlib)
+cmake_minimum_required(VERSION 3.12)
+project(MiProyecto)
 
-target_link_libraries(Caso-final-integrador /ruta/a/json11/libjson11.a)
-target_link_libraries(Caso-final-integrador /ruta/a/jsonlib/libjsonlib.a)
+set(CMAKE_CXX_STANDARD 11)
+
+# Agrega la biblioteca jsonlib
+add_library(jsonlib
+        src/jsonlib.cpp
+)
+
+target_include_directories(jsonlib
+        PUBLIC
+        ${CMAKE_CURRENT_SOURCE_DIR}/include
+)
+
+
+
+add_executable(MiPrograma main.cpp)
+
+
+target_link_libraries(MiPrograma PRIVATE jsonlib)

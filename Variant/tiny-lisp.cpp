@@ -3,6 +3,7 @@
 #include <map>
 #include "json11.hpp"
 #include "jsonlib.hpp"
+
 enum variant_type { Symbol, Number, List, Proc, Lambda, Cadena };
 
 struct Entorno;
@@ -30,17 +31,15 @@ public:
 };
 
 std::string Variant::to_string() {
-    // Tu implementación aquí
-}
+
 
 std::string Variant::to_json_string() {
-    // Tu implementación aquí
+
 }
 
 Variant Variant::from_json_string(std::string sjson) {
-    // Tu implementación aquí
-}
+
 
 Variant Variant::parse_json(jsonlib::Json job) {
-    // Tu implementación aquí
+
 }
