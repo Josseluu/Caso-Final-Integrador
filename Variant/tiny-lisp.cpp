@@ -1,8 +1,8 @@
 #include <vector>
 #include <string>
 #include <map>
-#include "json11.hpp"
-#include "jsonlib.hpp"
+#include "json11.hpp" // Asegúrate de tener esta biblioteca en tu sistema
+#include "jsonlib.hpp" // No estoy seguro de qué biblioteca es esta, asegúrate de tenerla en tu sistema
 
 enum variant_type { Symbol, Number, List, Proc, Lambda, Cadena };
 
@@ -31,15 +31,17 @@ public:
 };
 
 std::string Variant::to_string() {
-
+    // Tu implementación aquí
+}
 
 std::string Variant::to_json_string() {
-
+    // Tu implementación aquí
 }
 
 Variant Variant::from_json_string(std::string sjson) {
-
+    // Tu implementación aquí
+}
 
 Variant Variant::parse_json(jsonlib::Json job) {
-
+    // Tu implementación aquí
 }
