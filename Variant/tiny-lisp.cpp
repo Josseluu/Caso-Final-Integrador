@@ -2,8 +2,7 @@
 #include <string>
 #include <map>
 #include "json11.hpp"
-#include "jsonlib.hpp" // No estoy seguro de qué biblioteca es esta, asegúrate de tenerla en tu sistema
-
+#include "jsonlib.hpp"
 enum variant_type { Symbol, Number, List, Proc, Lambda, Cadena };
 
 struct Entorno;
