@@ -31,7 +31,7 @@ public:
 };
 
 std::string Variant::to_string() {
-    // Tu implementación aquí
+
 }
 
 std::string Variant::to_json_string() {
