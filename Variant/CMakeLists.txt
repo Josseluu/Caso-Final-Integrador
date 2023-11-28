@@ -3,7 +3,7 @@ project(MiProyecto)
 
 set(CMAKE_CXX_STANDARD 11)
 
-# Agrega la biblioteca jsonlib
+
 add_library(jsonlib
         src/jsonlib.cpp
 )
